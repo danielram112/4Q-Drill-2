@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Drill 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Heat Index Checker</h1>
+       
+        <p class="text-muted">Enter the temperature and humidity to find the heat index!</p>
+            <label for="temperature">Temp</label>
+            <input type="number" class="form-control w-60 mx-auto" placeholder="Input Temperature (°C)" id="temperature">
+            <br>
+            <br>
+            <label for="humidityInput">Humidity</label>
+            <input type="number" class="form-control w-60 mx-auto" placeholder="Input Humidity (%)" id="humidity">
+            <br>
+            <br>
+            <button class="btn btn-primary" onclick="hawakMoAngHeat()">Calculate Heat Index</button>
+            <button type="button" class="btn btn-warning" onclick="window.location.reload()">Refresh</button>
+            <div id="heatIndexResult"></div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

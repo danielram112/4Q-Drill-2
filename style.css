@@ -1,0 +1,16 @@
+.container{
+    text-align: center;
+    background-color: rgb(255, 146, 92); 
+    border-radius: 3% ;
+    border: 7px solid black;
+    width: 50%;
+   height: 50vh;
+   margin: auto;
+   
+    
+}
+body{
+   
+    color: rgb(0, 0, 0);
+  
+}
